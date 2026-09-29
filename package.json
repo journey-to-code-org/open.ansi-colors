@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-ansi-colors",
+  "version": "1.0.0",
+  "description": "Minimal zero-dependency ANSI terminal color and style helpers.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.ansi-colors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.ansi-colors/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.ansi-colors#readme",
+  "keywords": [
+    "ansi",
+    "colors",
+    "terminal",
+    "cli"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
